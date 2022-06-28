@@ -1,0 +1,61 @@
+print("JUGADOR 1")
+jugador = Jugador(0,3000,0.010,"PORCENTUAL") # Juega si tiene 2/3 de chances, comienza con 100 fichas. Apuesta 10 por mano, de forma fija
+juego = Juego(jugador,1) #Jugamos con nuestro jugador, con 1 mazo
+juego.jugarManos(1000)
+jugador.informe()
+#juego.informarManos()
+print()
+print("JUGADOR 2")
+jugador = Jugador(0,3000,300,"FIJO") # Juega si tiene 2/3 de chances, comienza con 100 fichas. Apuesta 10 por mano, de forma fija
+juego = Juego(jugador,1) #Jugamos con nuestro jugador, con 1 mazo
+juego.jugarManos(1000)
+jugador.informe()
+#juego.informarManos()
+
+
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ python3 main.py 
+JUGADOR 1
+INFORME DEL JUGADOR
+Balance inicial: 3000
+Balance actual: 37280.81142980674
+Manos jugadas: 1000
+Manos ganadas: 807
+Manos empatadas: 36
+Manos perdidas: 157
+Manos con blackjack: 25
+Manos con 5 cartas: 169
+
+JUGADOR 2
+INFORME DEL JUGADOR
+Balance inicial: 3000
+Balance actual: 83250
+Manos jugadas: 1000
+Manos ganadas: 804
+Manos empatadas: 36
+Manos perdidas: 160
+Manos con blackjack: 53
+Manos con 5 cartas: 153
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ python3 main.py 
+JUGADOR 1
+INFORME DEL JUGADOR
+Balance inicial: 3000
+Balance actual: 29610.859619483825
+Manos jugadas: 1000
+Manos ganadas: 777
+Manos empatadas: 48
+Manos perdidas: 175
+Manos con blackjack: 49
+Manos con 5 cartas: 165
+
+JUGADOR 2
+INFORME DEL JUGADOR
+Balance inicial: 3000
+Balance actual: 86100
+Manos jugadas: 1000
+Manos ganadas: 816
+Manos empatadas: 33
+Manos perdidas: 151
+Manos con blackjack: 40
+Manos con 5 cartas: 170
+
+

@@ -1,0 +1,5 @@
+jugador = Jugador(1/8,100,10,"FIJO") # Juega si tiene 2/3 de chances, comienza con 100 fichas. Apuesta 10 por mano, de forma fija
+    juego = Juego(jugador,1) #Jugamos con nuestro jugador, con 1 mazo
+    juego.jugarManos(1000)
+    jugador.informe()
+    #juego.informarManos()

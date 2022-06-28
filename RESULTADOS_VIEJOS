@@ -1,0 +1,85 @@
+Para los parametros:
+jugador = Jugador(1/8,100,10,"FIJO") # Juega si tiene 2/3 de chances, comienza con 100 fichas. Apuesta 10 por mano, de forma fija
+    juego = Juego(jugador,1) #Jugamos con nuestro jugador, con 1 mazo
+    juego.jugarManos(1000)
+    jugador.informe()
+    #juego.informarManos()
+
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ python3 main.py 
+INFORME DEL JUGADOR
+Balance inicial: 10000
+Balance actual: 11695
+Manos jugadas: 1000
+Manos ganadas: 712
+Manos empatadas: 77
+Manos perdidas: 211
+Manos con blackjack: 52
+Manos con 5 cartas: 121
+INFORME DEL JUGADOR
+Balance inicial: 10000
+Balance actual: 10655
+Manos jugadas: 1000
+Manos ganadas: 639
+Manos empatadas: 83
+Manos perdidas: 278
+Manos con blackjack: 48
+Manos con 5 cartas: 72
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ python3 main.py 
+INFORME DEL JUGADOR
+Balance inicial: 100
+Balance actual: 1735
+Manos jugadas: 1000
+Manos ganadas: 703
+Manos empatadas: 84
+Manos perdidas: 213
+Manos con blackjack: 52
+Manos con 5 cartas: 98
+INFORME DEL JUGADOR
+Balance inicial: 10000
+Balance actual: 10660
+Manos jugadas: 1000
+Manos ganadas: 634
+Manos empatadas: 93
+Manos perdidas: 273
+Manos con blackjack: 45
+Manos con 5 cartas: 86
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ python3 main.py 
+INFORME DEL JUGADOR
+Balance inicial: 100
+Balance actual: 2070
+Manos jugadas: 1000
+Manos ganadas: 751
+Manos empatadas: 54
+Manos perdidas: 195
+Manos con blackjack: 35
+Manos con 5 cartas: 137
+INFORME DEL JUGADOR
+Balance inicial: 10000
+Balance actual: 11120
+Manos jugadas: 1000
+Manos ganadas: 675
+Manos empatadas: 74
+Manos perdidas: 251
+Manos con blackjack: 52
+Manos con 5 cartas: 72
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ python3 main.py 
+INFORME DEL JUGADOR
+Balance inicial: 100
+Balance actual: 2205
+Manos jugadas: 1000
+Manos ganadas: 750
+Manos empatadas: 67
+Manos perdidas: 183
+Manos con blackjack: 37
+Manos con 5 cartas: 128
+INFORME DEL JUGADOR
+Balance inicial: 10000
+Balance actual: 10660
+Manos jugadas: 1000
+Manos ganadas: 638
+Manos empatadas: 81
+Manos perdidas: 281
+Manos con blackjack: 59
+Manos con 5 cartas: 73
+fede@fede-VirtualBox:~/Documentos/Code/Python/SSII$ 
+
